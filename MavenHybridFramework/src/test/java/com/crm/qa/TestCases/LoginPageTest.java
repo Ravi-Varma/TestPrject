@@ -33,7 +33,7 @@ public class LoginPageTest extends TestBase
 	{
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE, "Login Page Title is not Matched");
-		Log.info("Login Page Title Verified Passed ");
+		Log.info("Login Page Title Verified Passed");
 	}
 	
 	@Test(priority=2, enabled=true)
