@@ -40,7 +40,7 @@ public class LoginPageTest extends TestBase
 	public void crmLogoImageTest()
 	{
 		boolean flag = loginPage.validateCRMImage();
-		Assert.assertTrue(flag);
+		Assert.assertTrue(flag );
 		Log.info("CRM Logo Verified");
 	}
 	
